@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Lakshmi Narayanan, Python Full Stack and Front-End Developer.">
+  <meta name="theme-color" content="#070b16">
+  <title>Lakshmi Narayanan | Python Full Stack Developer</title>
+
+  <!-- Frameworks, icons, animation library, and fonts -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Decorative background -->
+  <div class="background-grid" aria-hidden="true"></div>
+  <div class="glow glow-one" aria-hidden="true"></div>
+  <div class="glow glow-two" aria-hidden="true"></div>
+
+  <!-- Sticky navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand" href="#home"><span class="logo-mark">LN</span><span>Lakshmi<span class="accent-dot">.</span></span></a>
+      <div class="d-flex align-items-center gap-2 order-lg-3">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light mode" title="Toggle theme"><i class="bi bi-sun-fill light-icon"></i><i class="bi bi-moon-stars-fill dark-icon"></i></button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      </div>
+      <div class="collapse navbar-collapse order-lg-2" id="navMenu">
+        <ul class="navbar-nav ms-auto me-lg-4">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#credentials">Journey</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="row align-items-center min-vh-100 g-5 py-5">
+          <div class="col-lg-7 order-2 order-lg-1" data-aos="fade-right">
+            <div class="status-pill"><span></span> Available for software opportunities</div>
+            <p class="hero-greeting">Hi, I’m Lakshmi Narayanan</p>
+            <h1>Building digital<br><span>experiences that work.</span></h1>
+            <p class="typing-line"><span id="typingText" aria-live="polite"></span><span class="typing-cursor" aria-hidden="true">|</span></p>
+            <p class="hero-summary">Python Full Stack Developer and Front-End Developer creating responsive, practical, and user-friendly web applications.</p>
+            <div class="hero-buttons">
+              <a class="btn btn-primary-custom" href="#projects">View Projects <i class="bi bi-arrow-down-right"></i></a>
+              <a class="btn btn-glass" href="resume.pdf" download="Lakshmi-Narayanan-Resume.pdf">Download Resume <i class="bi bi-download"></i></a>
+              <a class="btn btn-icon" href="https://www.linkedin.com/in/lakshminarayanan078/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i><span>LinkedIn</span></a>
+              <a class="btn btn-icon" href="https://github.com/lakshminarayanan008" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i><span>GitHub</span></a>
+              <a class="btn btn-icon" href="#contact"><i class="bi bi-chat-dots"></i><span>Contact Me</span></a>
+            </div>
+            <div class="tech-strip"><span>Python</span><i></i><span>Django</span><i></i><span>JavaScript</span><i></i><span>MySQL</span></div>
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
+            <div class="photo-stage mx-auto">
+              <div class="orbit orbit-outer"></div><div class="orbit orbit-inner"></div>
+              <div class="photo-ring"><img class="profile-photo" src="assets/profile.jpg" alt="Lakshmi Narayanan"></div>
+              <div class="floating-badge badge-code"><i class="bi bi-code-slash"></i><span>Clean code<br><strong>Modern web</strong></span></div>
+              <div class="floating-badge badge-role"><span class="online-dot"></span><span>Python<br><strong>Full Stack</strong></span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-indicator" href="#about" aria-label="Scroll to about"><span>Scroll</span><i class="bi bi-arrow-down"></i></a>
+    </section>
+
+    <!-- About section -->
+    <section class="section-space" id="about">
+      <div class="container">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-5" data-aos="fade-up">
+            <p class="section-label">01 / About me</p>
+            <h2 class="section-title">A developer with a<br><span>growth mindset.</span></h2>
+          </div>
+          <div class="col-lg-7" data-aos="fade-up" data-aos-delay="120">
+            <article class="glass-card about-card">
+              <p class="lead-copy">I am a B.Tech Information Technology graduate with a CGPA of <strong>7.75</strong> from Sri Manakula Vinayagar Engineering College.</p>
+              <p>I am currently building my expertise in Python Full Stack Development with hands-on experience in Python, Django, HTML, CSS, Bootstrap, JavaScript, and MySQL. I am passionate about web development, problem solving, and creating user-friendly applications.</p>
+              <div class="about-stats">
+                <div><strong>B.Tech</strong><span>Information Technology</span></div>
+                <div><strong>7.75</strong><span>Academic CGPA</span></div>
+                <div><strong>Open</strong><span>To opportunities</span></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills section -->
+    <section class="section-space section-panel" id="skills">
+      <div class="container">
+        <div class="section-heading text-center" data-aos="fade-up">
+          <p class="section-label">02 / Technical skills</p>
+          <h2 class="section-title">My developer <span>toolkit.</span></h2>
+          <p>Technologies I use to turn ideas into reliable digital products.</p>
+        </div>
+        <div class="row g-4 mt-4">
+          <div class="col-lg-3 col-md-6" data-aos="fade-up">
+            <article class="glass-card skill-card h-100">
+              <div class="skill-icon"><i class="bi bi-window"></i></div>
+              <h3>Frontend</h3>
+              <div class="skill-list"><span>HTML5</span><span>CSS3</span><span>Bootstrap</span><span>JavaScript</span></div>
+            </article>
+          </div>
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <article class="glass-card skill-card h-100">
+              <div class="skill-icon"><i class="bi bi-braces"></i></div>
+              <h3>Backend</h3>
+              <div class="skill-list"><span>Python</span><span>Django</span></div>
+            </article>
+          </div>
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <article class="glass-card skill-card h-100">
+              <div class="skill-icon"><i class="bi bi-database"></i></div>
+              <h3>Database</h3>
+              <div class="skill-list"><span>MySQL</span><span>SQL</span></div>
+            </article>
+          </div>
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <article class="glass-card skill-card h-100">
+              <div class="skill-icon"><i class="bi bi-tools"></i></div>
+              <h3>Tools</h3>
+              <div class="skill-list"><span>Git</span><span>GitHub</span><span>VS Code</span></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="section-space" id="projects">
+      <div class="container">
+        <div class="d-lg-flex justify-content-between align-items-end gap-5 mb-5" data-aos="fade-up">
+          <div><p class="section-label">03 / Selected projects</p><h2 class="section-title">Work built with <span>purpose.</span></h2></div>
+          <p class="section-description">Selected work across deep learning, full-stack systems, and e-commerce.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up">
+            <article class="glass-card project-card h-100"><div class="project-visual project-visual-one"><span>01</span><i class="bi bi-lungs"></i></div><div class="project-content"><div class="project-tags"><span>Deep Learning</span><span>CNN</span></div><h3>Enhanced Medical Image Segmentation for Lung Imaging</h3><p>Developed a deep learning based system for accurate lung image segmentation using optimized CNN architectures.</p><a href="#contact">Discuss project <i class="bi bi-arrow-right"></i></a></div></article>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="120">
+            <article class="glass-card project-card h-100"><div class="project-visual project-visual-two"><span>02</span><i class="bi bi-mortarboard"></i></div><div class="project-content"><div class="project-tags"><span>Django</span><span>MySQL</span></div><h3>Student Management System</h3><p>Built using Django and MySQL for managing student records and academic information.</p><a href="#contact">Discuss project <i class="bi bi-arrow-right"></i></a></div></article>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="240">
+            <article class="glass-card project-card h-100"><div class="project-visual project-visual-three"><span>03</span><i class="bi bi-bag-check"></i></div><div class="project-content"><div class="project-tags"><span>Full Stack</span><span>Responsive UI</span></div><h3>E-Commerce Website</h3><p>Developed a responsive web application with product management and user authentication.</p><a href="#contact">Discuss project <i class="bi bi-arrow-right"></i></a></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications and achievements -->
+    <section class="section-space section-panel" id="credentials">
+      <div class="container">
+        <div class="section-heading text-center" data-aos="fade-up"><p class="section-label">04 / Growth & recognition</p><h2 class="section-title">Learning beyond the <span>classroom.</span></h2></div>
+        <div class="journey-grid mt-5">
+          <article class="glass-card journey-card" data-aos="fade-right"><div class="journey-icon"><i class="bi bi-patch-check-fill"></i></div><div><p class="journey-label">Certifications</p><h3>Continuous learning</h3><ul class="journey-list"><li><span>NPTEL</span>Foundation of Cloud IoT Edge ML</li><li><span>Accenture</span>Artificial Intelligence</li><li><span>Udemy</span>Python Certification</li></ul></div></article>
+          <article class="glass-card journey-card" data-aos="fade-left"><div class="journey-icon"><i class="bi bi-trophy-fill"></i></div><div><p class="journey-label">Achievements</p><h3>Ideas and participation</h3><ul class="journey-list"><li>Best Innovative Team in International Level Ideathon Event <span>AGAM 5.0</span></li><li>Participated in <span>Kurukshetra 2023</span> at Anna University</li></ul></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="section-space" id="contact">
+      <div class="container">
+        <div class="contact-wrap glass-card" data-aos="zoom-in-up">
+          <div class="contact-intro"><p class="section-label">05 / Contact</p><h2 class="section-title">Let’s create something<br><span>worth building.</span></h2><p>I’m actively seeking Software Developer opportunities. Reach out for roles, collaborations, or a conversation about technology.</p><a class="btn btn-primary-custom" href="mailto:lakshminarayanan882003@gmail.com">Contact Me <i class="bi bi-send"></i></a></div>
+          <div class="contact-list">
+            <a href="mailto:lakshminarayanan882003@gmail.com"><i class="bi bi-envelope"></i><span><small>Email</small>lakshminarayanan882003@gmail.com</span><i class="bi bi-arrow-up-right"></i></a>
+            <a href="tel:+916381050484"><i class="bi bi-phone"></i><span><small>Phone</small>+91 6381050484</span><i class="bi bi-arrow-up-right"></i></a>
+            <a href="https://www.linkedin.com/in/lakshminarayanan078/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i><span><small>LinkedIn</small>Connect with me</span><i class="bi bi-arrow-up-right"></i></a>
+            <a href="https://github.com/lakshminarayanan008" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i><span><small>GitHub</small>Explore my code</span><i class="bi bi-arrow-up-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer><div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3"><p>© 2026 Lakshmi Narayanan. All Rights Reserved.</p><div class="footer-socials"><a href="https://www.linkedin.com/in/lakshminarayanan078/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a><a href="https://github.com/lakshminarayanan008" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bi bi-github"></i></a><a href="mailto:lakshminarayanan882003@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a><a href="#home" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a></div></div></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
